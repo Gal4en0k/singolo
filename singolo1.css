@@ -1,1 +1,81 @@
+html,
+body {
+  margin: 0;
+  font-family: "Solo", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  width: 1020px;
+}
+ 
+body {
+  min-width: 1020px;
+  /*border: 2px dashed #c7e4ff;*/
+  padding: 0px 0px 0px 0px;
+}
+header {
+    background-color: rgb(45, 48, 58);
+    border-bottom-style: solid;
+    border-bottom-color: rgb(50, 55, 70);
+    height: 190px;
+
+}
+.logo {
+    padding: 40px 20px 0px 30px;
+    display: inline-block; 
+    width: 65px;
+    height: 70px;
+    font-size: 20px;
+    color: white;
+   
+}
+.logo-star {
+    display: inline-block; 
+    padding: 45px 20px 0px 30px;
+    width: 5px;
+    height: 70px;
+    font-size: 20px;
+    color: red;
+   
+}
+
+h1 ul {
+    display: inline-block;
+    /*position: absolute;*/
+    font-size: 12px;
+    color: white;
+    padding: 0px 20px 0px 510px;
+    width: 371px;
+    height: 70px;
+}
+h1 li {width: 120px}
+h1 li:hover {color: red}
+
+.slider {background-color: rgb(255,128,128);
+height: 600px;
+border-bottom-style: solid;
+border-bottom-color: rgb(234, 103, 107);
+display: flex; 
+
+}
+
+
+.services {background-color: rgb(242,242,242);
+    height: 503px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+}
+
+.phone_v {
+    background-image: url(assets/Base_phone.png);
+    display: flex;
+    background-position: 200px 200px;
+}
+
+.phone_g {
+    background-image: url(assets/Base_phone.png);
+    transform: rotate(90deg);
+    display: flex;
+}
+
+
 
