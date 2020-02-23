@@ -1,8 +1,9 @@
 html,
 body {
   margin: 0;
-  font-family: "Solo", sans-serif;
+  padding: 0px;
   font-size: 14px;
+  font-family: "LatoLigth", sans-serif;
   line-height: 20px;
   width: 1020px;
 }
@@ -16,66 +17,138 @@ header {
     background-color: rgb(45, 48, 58);
     border-bottom-style: solid;
     border-bottom-color: rgb(50, 55, 70);
-    height: 190px;
+    height: 90px;
 
 }
 .logo {
-    padding: 40px 20px 0px 30px;
+    padding: 40px 0px 0px 30px;
     display: inline-block; 
-    width: 65px;
+    width: 60px;
     height: 70px;
-    font-size: 20px;
+    font-family: "LatoLigth", sans-serif;
+    font-size: 24px;
     color: white;
+    text-align: right;
    
 }
 .logo-star {
     display: inline-block; 
-    padding: 45px 20px 0px 30px;
+    padding: 40px 20px 0px 60px;
     width: 5px;
     height: 70px;
-    font-size: 20px;
+    font: 20px/26px "LatoLigth", sans-serif;
     color: red;
-   
+    text-align: left;   
 }
 
-h1 ul {
+.top-menu {
     display: inline-block;
     /*position: absolute;*/
-    font-size: 12px;
-    color: white;
-    padding: 0px 20px 0px 510px;
-    width: 371px;
-    height: 70px;
-}
-h1 li {width: 120px}
-h1 li:hover {color: red}
+    margin: 0px;
+    padding: 0px 10px 0px 400px;
+    /*width: 371px;*/
+    height: 20px;
 
-.slider {background-color: rgb(255,128,128);
-height: 600px;
+}
+
+.top-menu li {
+    font-family: "LatoLigth", sans-serif;
+    font-size: 12px;
+    color: white; 
+    display: inline;
+}
+.top-menu li:hover {color: red}
+
+.top-menu li:nth-child(1){
+    list-style-type: none;}
+
+.slider {background-color: rgb(240,108,100);
 border-bottom-style: solid;
 border-bottom-color: rgb(234, 103, 107);
 display: flex; 
+height: 600px;
+margin: 0px;
+padding: 0px;
 
 }
 
 
-.services {background-color: rgb(242,242,242);
+.services {
+    display: inline-block;  
+    background-color: rgb(242,242,242);
     height: 503px;
+    width: 1020px;
     border-bottom-style: solid;
     border-bottom-color: white;
-}
+    margin: 0px;
+    padding: 0px;
+    }
+
+.OurServices {
+    padding: 0px 20px 0px 20px;
+    font: 32px "LatoBold", sans-serif;
+    color: rgb(102,109,137);
+    height: 40px;
+}   
+
+.TextServices {
+    padding: 0px 20px 0px 20px;
+    font: 16px "LatoLigth", sans-serif;
+    color: rgb(102,109,137);
+    height: 100px;
+}   
 
 .phone_v {
     background-image: url(assets/Base_phone.png);
-    display: flex;
-    background-position: 200px 200px;
+    display: flex; 
+    background-position: 90px 70px;
 }
 
 .phone_g {
     background-image: url(assets/Base_phone.png);
     transform: rotate(90deg);
-    display: flex;
+    display: flex; 
+    background-position: 400px 200px;
+}
+
+.services_row1{
+    display: inline-block;  
+    list-style: none;  
+    padding: 5px 5px 5px 10px;
+    width: 300px;
+    height: 100px;
+    border: none;
+    
+    }
+
+.s_menu_head {
+    display: inline-block;  
+    font: 16px "LatoBold", sans-serif;
+    color: rgb(102,109,137);
+    width: 240px;
+    height: 30px;
+}
+
+.s_menu_text {
+    display: inline-block;  
+    font: 12px "LatoLigth", sans-serif;
+    color: rgb(102,109,137);
+    width: 240px;
+    height: 70px;
 }
 
 
+@font-face {
+    font-family: "LatoBold"; 
+    src: url("assets/Lato-Bold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
+
+@font-face {
+    font-family: "LatoLigth"; 
+    src: url("assets/Lato-Light.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+    } 
 
